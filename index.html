@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Results Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="bod">
+    <marquee behavior="scroll" direction="left" style="font-size: 24px; color: #e8691a; font-weight: bold; margin-bottom: 20px;">
+        Lovely Professional University
+    </marquee>
+</div>
+    
+    <div class="login-container">
+        <h2>Login</h2>
+        <input type="text" id="username" placeholder="Username">
+        <input type="password" id="password" placeholder="Password">
+        <button onclick="login()">Login</button>
+        <p id="message"></p>
+    </div>
+    <div class="result-container" id="result-container">
+        <h2>Results</h2>
+        <p id="result"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
