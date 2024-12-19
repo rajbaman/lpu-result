@@ -18,8 +18,8 @@ function login() {
             <table>
                 <tr>
                     <th>Course Name</th>
-                    <th>Marks</th>
-                    <th>Grade(100)</th>
+                    <th> Marks(100)</th>
+                    <th>Grade</th>
                 </tr>
                 <tr>
                     <td>CSE111</td>
@@ -27,7 +27,7 @@ function login() {
                     <td>B+ (Good)</td>
                     </tr>
                 <tr>
-                    <td>MTH!74</td>
+                    <td>MTH174</td>
                     <td>48</d>
                     <td>D(Below Average)</td>
                 </tr>
@@ -57,6 +57,56 @@ function login() {
                     <td>B+ (Good)</td>
                 </tr>
             </table>
+        
+            <br>
+            <br>
+            <br>
+            <marquee behavior="scroll" direction="left" style="font-size: 24px; color: #e8691a; font-weight: bold; margin-bottom: 20px;">
+        Lovely Professional University Semester-2 Results
+    </marquee>
+            <table>
+            <p><strong>CGPA:7.6</strong></p>
+               <tr>
+                    <th>Course Name</th>
+                    <th> Marks(100)</th>
+                    <th>Grade</th>
+                </tr>
+                <tr>
+                    <td>CSE101</td>
+                    <td>65</td>
+                    <td>B(Good)</td>
+                    </tr>
+                <tr>
+                    <td>CSE121</td>
+                    <td>73</d>
+                    <td>B+(Good)</td>
+                </tr>
+                <tr>
+                    <td>CSE320</td>
+                    <td>69</td>
+                    <td>B+ (Good)</td>
+                </tr>
+                <tr>
+                    <td>INT306</td>
+                    <td>77</td>
+                    <td>B+ (Good)</td>
+                </tr>
+                <tr>
+                    <td>MEC136</td>
+                    <td>87</td>
+                    <td>A (Very Good)</td>
+                </tr>
+                <tr>
+                    <td>MTH401</td>
+                    <td>54</td>
+                    <td>C (Average)</td>
+                </tr>
+                <tr>
+                    <td>PEL121</td>
+                    <td>71</td>
+                    <td>B+ (Good)</td>
+                </tr>
+                </table>
         `;
         document.getElementById("result-container").style.display = "block";
     } else {
