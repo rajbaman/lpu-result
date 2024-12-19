@@ -11,7 +11,7 @@ function login() {
             
             <p>Name: Thitre Jail Singh</p>
             <p>Father's Name: Thitre Jagdeesh</p>
-            <p>Parent Phone Number: 83228267253</p>
+            <p>Parent Phone Number: 8328267253</p>
             <p>Branch: Btech CSE</p>
             <p>Academic Year: 2023-2024</p>
             <p><strong>CGPA:7.2</strong></p>
